@@ -1,8 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Observable } from 'rxjs-compat';
-import { filter } from 'rxjs-compat/operator/filter';
-import { map } from 'rxjs-compat/operator/map';
 
 @Component({
   selector: 'app-home',
